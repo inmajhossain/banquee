@@ -1,5 +1,5 @@
 import React from "react";
-import App from "@/assets/app.png";
+import image7 from "@/assets/image7.png";
 import Image from "next/image";
 import badge from "@/assets/badge.svg";
 import AppleStore from "@/assets/AppleStore.png";
@@ -44,8 +44,8 @@ export default function OneApp() {
       <div>
         <Image
           className="mx-auto lg:mt-[60px]"
-          alt="App Image"
-          src={App}
+          alt="Image7"
+          src={image7}
           width="380"
           height="350"
         />
