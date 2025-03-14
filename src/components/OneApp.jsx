@@ -1,5 +1,5 @@
 import React from "react";
-import App from "@/assets/App.png";
+import App from "@/assets/app.png";
 import Image from "next/image";
 import badge from "@/assets/badge.svg";
 import AppleStore from "@/assets/AppleStore.png";
