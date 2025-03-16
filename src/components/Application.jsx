@@ -26,6 +26,7 @@ export default function Application() {
             <div className="flex items-center gap-[10px]">
               <Image
                 className="bg-[#5BB5A2] size-[25px] rounded-full"
+                alt={badge}
                 src={badge}
                 width={20}
                 height={20}
@@ -35,6 +36,7 @@ export default function Application() {
             <div className="flex items-center gap-[10px] mt-[10px]">
               <Image
                 className="bg-[#5BB5A2] size-[25px] rounded-full"
+                alt={badge}
                 src={badge}
                 width={20}
                 height={20}
@@ -44,6 +46,7 @@ export default function Application() {
             <div className="flex items-center gap-[10px] mt-[10px]">
               <Image
                 className="bg-[#5BB5A2] size-[25px] rounded-full"
+                alt={badge}
                 src={badge}
                 width={20}
                 height={20}
@@ -55,7 +58,7 @@ export default function Application() {
         {/* Left End */}
         {/* Right Start */}
         <div>
-          <Image src={App1} width={380} height={800} />
+          <Image src={App1} alt={App1} width={380} height={800} />
         </div>
         {/* Right End */}
       </div>
@@ -77,6 +80,7 @@ export default function Application() {
             <div className="flex items-center gap-[10px]">
               <Image
                 className="bg-[#5BB5A2] size-[25px] rounded-full"
+                alt={badge}
                 src={badge}
                 width={20}
                 height={20}
@@ -86,6 +90,7 @@ export default function Application() {
             <div className="flex items-center gap-[10px] mt-[10px]">
               <Image
                 className="bg-[#5BB5A2] size-[25px] rounded-full"
+                alt={badge}
                 src={badge}
                 width={20}
                 height={20}
@@ -95,6 +100,7 @@ export default function Application() {
             <div className="flex items-center gap-[10px] mt-[10px]">
               <Image
                 className="bg-[#5BB5A2] size-[25px] rounded-full"
+                alt={badge}
                 src={badge}
                 width={20}
                 height={20}
@@ -106,7 +112,7 @@ export default function Application() {
         {/* Left End */}
         {/* Right Start */}
         <div>
-          <Image src={App2} width={380} height={800} />
+          <Image src={App2} alt={App2} width={380} height={800} />
         </div>
         {/* Right End */}
       </div>
@@ -128,6 +134,7 @@ export default function Application() {
             <div className="flex items-center gap-[10px]">
               <Image
                 className="bg-[#5BB5A2] size-[25px] rounded-full"
+                alt={badge}
                 src={badge}
                 width={20}
                 height={20}
@@ -137,6 +144,7 @@ export default function Application() {
             <div className="flex items-center gap-[10px] mt-[10px]">
               <Image
                 className="bg-[#5BB5A2] size-[25px] rounded-full"
+                alt={badge}
                 src={badge}
                 width={20}
                 height={20}
@@ -146,6 +154,7 @@ export default function Application() {
             <div className="flex items-center gap-[10px] mt-[10px]">
               <Image
                 className="bg-[#5BB5A2] size-[25px] rounded-full"
+                alt={badge}
                 src={badge}
                 width={20}
                 height={20}
@@ -157,7 +166,7 @@ export default function Application() {
         {/* Left End */}
         {/* Right Start */}
         <div>
-          <Image src={App3} width={380} height={800} />
+          <Image src={App3} alt={App3} width={380} height={800} />
         </div>
         {/* Right End */}
       </div>
@@ -179,6 +188,7 @@ export default function Application() {
             <div className="flex items-center gap-[10px]">
               <Image
                 className="bg-[#5BB5A2] size-[25px] rounded-full"
+                alt={badge}
                 src={badge}
                 width={20}
                 height={20}
@@ -188,6 +198,7 @@ export default function Application() {
             <div className="flex items-center gap-[10px] mt-[10px]">
               <Image
                 className="bg-[#5BB5A2] size-[25px] rounded-full"
+                alt={badge}
                 src={badge}
                 width={20}
                 height={20}
@@ -197,6 +208,7 @@ export default function Application() {
             <div className="flex items-center gap-[10px] mt-[10px]">
               <Image
                 className="bg-[#5BB5A2] size-[25px] rounded-full"
+                alt={badge}
                 src={badge}
                 width={20}
                 height={20}
@@ -208,7 +220,7 @@ export default function Application() {
         {/* Left End */}
         {/* Right Start */}
         <div>
-          <Image src={App4} width={380} height={800} />
+          <Image src={App4} alt={App4} width={380} height={800} />
         </div>
         {/* Right End */}
       </div>

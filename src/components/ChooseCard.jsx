@@ -32,7 +32,7 @@ export default function ChooseCard() {
           <p className="w-[220px] text-center">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
           </p>
-          <Image src={Card1} width={355} height={213} />
+          <Image src={Card1} alt={Card1} width={355} height={213} />
           <button className="w-[355px] h-[39px] text-white bg-[#5BB5A2] rounded-[5px]">
             Get started
           </button>
@@ -47,7 +47,7 @@ export default function ChooseCard() {
           <p className="w-[220px] text-center">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
           </p>
-          <Image src={Card2} width={355} height={213} />
+          <Image src={Card2} alt={Card2} width={355} height={213} />
           <button className="w-[355px] h-[39px] text-white bg-[#5BB5A2] rounded-[5px]">
             Get started
           </button>
@@ -62,7 +62,7 @@ export default function ChooseCard() {
           <p className="w-[220px] text-center">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
           </p>
-          <Image src={Card3} width={355} height={213} />
+          <Image src={Card3} alt={Card3} width={355} height={213} />
           <button className="w-[355px] h-[39px] text-white bg-[#5BB5A2] rounded-[5px]">
             Get started
           </button>

@@ -82,7 +82,8 @@ export default function Footer() {
         <div>
           <p>
             © Made by <span className="text-[#5BB5A2]">Inmaj Hossain</span> -
-            Powered by <span className="text-[#5BB5A2]">Next Js</span>
+            Powered by <span className="text-[#5BB5A2]">Next Js</span> -
+            WhatsApp <span className="text-[#5BB5A2]">+8801515212670</span>
           </p>
         </div>
         <div>

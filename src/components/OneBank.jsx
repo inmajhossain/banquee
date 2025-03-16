@@ -28,7 +28,7 @@ export default function OneBank() {
               numquam?
             </p>
           </div>
-          <Image src={Statistics} width={380} height={257} />
+          <Image src={Statistics} alt={Statistics} width={380} height={257} />
         </div>
         {/* Left End */}
         {/* Right Start */}
@@ -40,7 +40,7 @@ export default function OneBank() {
               numquam?
             </p>
           </div>
-          <Image src={Cards} width={723} height={253} />
+          <Image src={Cards} alt={Cards} width={723} height={253} />
         </div>
         {/* Right End */}
       </div>
@@ -56,7 +56,7 @@ export default function OneBank() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
           </div>
-          <Image src={Grid} width={723} height={253} />
+          <Image src={Grid} alt={Grid} width={723} height={253} />
         </div>
         {/* One End */}
         {/* Two Start */}
@@ -68,7 +68,13 @@ export default function OneBank() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
           </div>
-          <Image className="mr-[-33px]" src={Laptop} width={344} height={219} />
+          <Image
+            className="mr-[-33px]"
+            src={Laptop}
+            alt={Laptop}
+            width={344}
+            height={219}
+          />
         </div>
         {/* Two End */}
         {/* Three Start */}
@@ -80,7 +86,13 @@ export default function OneBank() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
           </div>
-          <Image className="" src={Apple2} width={300} height={281} />
+          <Image
+            className=""
+            src={Apple2}
+            alt={Apple2}
+            width={300}
+            height={281}
+          />
         </div>
         {/* Three End */}
       </div>

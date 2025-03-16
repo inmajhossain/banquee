@@ -1,8 +1,15 @@
 @import "tailwindcss";
+/* Custom Font Start */
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap");
+
+.tektur {
+  font-family: "Tektur", sans-serif;
+}
+/* Custom Font End */
 
 body {
   /* background: #032135; */
-  font-family: Arial, Helvetica, sans-serif, DM Sans;
+  /* font-family: Arial, Helvetica, sans-serif; */
   margin: 0;
   padding: 30px 0px 30px 0px;
 }

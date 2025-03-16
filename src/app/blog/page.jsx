@@ -10,8 +10,9 @@ import image6 from "@/assets/image6.png";
 
 export default function page() {
   return (
-    <div className="w-full mx-auto lg:w-[1200px] flex flex-col items-center lg:items-start justify-between mb-[150px]">
-      <h2 className="text-[64px] mx-auto mt-[50px]">Blog</h2>
+    //Custom font tektur from Global CSS
+    <div className="tektur w-full mx-auto lg:w-[1200px] flex flex-col items-center lg:items-start justify-between mb-[150px]">
+      <h2 className=" text-[64px] mx-auto mt-[50px]">Blog</h2>
       <nav className="flex justify-between items-center gap-[10px] lg:mt-[50px] mb-[30px] lg-mb-0">
         <h3 className="">Categories</h3>
         <Link

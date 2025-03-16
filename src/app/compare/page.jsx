@@ -56,7 +56,7 @@ export default function page() {
           sed lectus vestibulum.
         </p>
         <h3 className="text-[28px]">Nascetur ridiculus mus</h3>
-        <p className="text-[18px]">
+        <p className="text-left text-[18px]">
           Sed vulputate odio ut enim blandit volutpat maecenas. Sagittis orci a
           scelerisque purus semper eget duis at. Porta lorem mollis aliquam ut
           porttitor leo a diam. In fermentum et sollicitudin ac orci phasellus
@@ -76,23 +76,23 @@ export default function page() {
       <div className="flex flex-col items-center gap-[15px]">
         <h3 className="text-[18px]">Share article</h3>
         <div className="flex gap-[15px]">
-          <a>
+          <Link href="www.twitter.com">
             <GrTwitter className="bg-emerald-100 border-black border-[1px] rounded-full p-[7px] size-[35px]" />
-          </a>
-          <a href="www.facebook.com">
+          </Link>
+          <Link href="www.facebook.com">
             <FaFacebook className="bg-emerald-100 border-black border-[1px] rounded-full p-[7px] size-[35px]" />
-          </a>
-          <a>
+          </Link>
+          <Link href="www.instagram.com">
             <FaLinkedin className="bg-emerald-100 border-black border-[1px] rounded-full p-[7px] size-[35px]" />
-          </a>
-          <a>
+          </Link>
+          <Link href="www.pinterest.com">
             <FaInstagram className="bg-emerald-100 border-black border-[1px] rounded-full p-[7px] size-[35px]" />
-          </a>
+          </Link>
         </div>
       </div>
       {/* Social End */}
       {/* Related Article Start */}
-      <div className="lg:mt-[100px] border-t-1 py-[30px] w-full mx-auto lg:w-[1200px] flex justify-between items-center">
+      <div className="mt-[50px] lg:mt-[100px] border-t-1 py-[30px] w-full mx-auto lg:w-[1200px] flex flex-col lg:flex-row justify-between items-center">
         <h3 className="text-[28px] font-semibold">Related Article</h3>
         <div className="flex items-center gap-[10px] text-[#5BB5A2]">
           <h2>All Articles</h2>
