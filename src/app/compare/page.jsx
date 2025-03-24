@@ -2,7 +2,7 @@ import Image from "next/image";
 import Card1 from "@/assets/Card1.png";
 import Card2 from "@/assets/Card2.png";
 import Card3 from "@/assets/Card3.png";
-import Card5 from "@/assets/Card5.png";
+import Card5 from "@/assets/card5.png";
 import { MdOutlineCheck } from "react-icons/md";
 import { IoMdCall } from "react-icons/io";
 import {
