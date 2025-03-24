@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="lg:w-full mx-auto p-[25px] border-t-1 bg-[#f8fcfa] border-black lg:mb-[-30px]">
+    <div className="lg:w-full mx-auto p-[25px] border-t-1 bg-[#f8fcfa] border-black mb-[-30px]">
       {/* Brand Section */}
       <div className="flex justify-around">
         <div>

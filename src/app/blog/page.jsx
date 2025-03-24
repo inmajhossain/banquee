@@ -1,3 +1,7 @@
+//For Loading Use Start (Step-1)
+"use client";
+import { useState, useEffect } from "react";
+//For Loading Use End
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -9,9 +13,40 @@ import image5 from "@/assets/image5.png";
 import image6 from "@/assets/image6.png";
 
 export default function page() {
+  //For Loading Use Start (Step-2)
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const loadingPage = async () => {
+      setTimeout(() => {
+        setLoading(false);
+      }); // Simulate a loading delay
+    };
+
+    loadingPage();
+  }, []);
+
+  if (loading)
+    return (
+      <div className="mt-[150px] lg:mt-[350px] mx-auto w-[500px] h-[800px] flex gap-[30px] flex-col items-center">
+        <div className="flex gap-[30px]">
+          <div className="animate-spin h-10 w-10 rounded-full border-4 border-sky-900 border-b-transparent"></div>
+          <div className="animate-spin h-10 w-10 rounded-full border-4 border-red-600 border-b-transparent"></div>
+          <div className="animate-spin h-10 w-10 rounded-full border-4 border-orange-600 border-b-transparent"></div>
+          <div className="animate-spin h-10 w-10 rounded-full border-4 border-black border-b-transparent"></div>
+          <div className="animate-spin h-10 w-10 rounded-full border-4 border-indigo-600 border-b-transparent"></div>
+        </div>
+        <div>
+          <h2 className="text-[30px] font-semibold text-indigo-500 text-center">
+            Loading.......
+          </h2>
+        </div>
+      </div>
+    );
+  //For Loading Use End
   return (
     //Custom font tektur from Global CSS
-    <div className="tektur w-full mx-auto lg:w-[1200px] flex flex-col items-center lg:items-start justify-between mb-[150px]">
+    <div className=" w-full mx-auto lg:w-[1200px] flex flex-col items-center lg:items-start justify-between mb-[150px]">
       <h2 className=" text-[64px] mx-auto mt-[50px]">Blog</h2>
       <nav className="flex justify-between items-center gap-[10px] lg:mt-[50px] mb-[30px] lg-mb-0">
         <h3 className="">Categories</h3>
@@ -44,14 +79,16 @@ export default function page() {
       <div className="w-full mx-auto lg:w-[1200px] flex flex-col lg:flex-row flex-wrap justify-between items-center gap-y-[50px]">
         {/* One Start */}
         <div className="w-[378px] h-[637px] flex flex-col justify-between gap-[10px]">
-          <Image
-            className="mx-auto lg:mt-[60px]"
-            alt="Image1"
-            src={image1}
-            width="378"
-            height="378"
-          />
-          <h3 className="text-[28px]">
+          <Link href={"/blog/applicationapp"}>
+            <Image
+              className="mx-auto lg:mt-[60px]"
+              alt="Image1"
+              src={image1}
+              width="378"
+              height="378"
+            />
+          </Link>
+          <h3 className=" text-black text-[28px]">
             How To Start Using Banko For Your Startup
           </h3>
           <p className="text-[18px]">

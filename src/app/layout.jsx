@@ -2,12 +2,12 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Oswald, Monoton } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 
 //Custom font Installing
-const oswald = Oswald({
+const dmsans = DM_Sans({
   subsets: ["latin"],
-  variable: "--font-oswald",
+  variable: "--font-dmsans",
   weight: ["400"],
 });
 
@@ -31,7 +31,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${oswald.className} antialiased`}>
+      <body className={`${dmsans.className} antialiased`}>
         <Header />
         {children}
         <Footer />
