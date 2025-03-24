@@ -10,7 +10,7 @@ export default function () {
       {/* Left Side */}
       <div className="lg:w-[600px] w-full flex-col flex item-center   ">
         <div>
-          <h2 className="text-[40px] font-semibold text-center lg:text-left">
+          <h2 className=" text-[40px] font-semibold text-center lg:text-left">
             Need help?
           </h2>
         </div>

@@ -24,7 +24,7 @@ export default function Hero() {
     // className={`${tektur.className} lg:text-[88px] text-[50px]`}>
     <div className=" w-full flex flex-col justify-between lg:h-[840px] bg-[#E8F2EE] mb-[50px]">
       <div className="mx-auto text-center py-[90px]">
-        <h1 className=" lg:text-[88px] text-[50px]">All in one card.</h1>
+        <h1 className=" roboto lg:text-[88px] text-[50px]">All in one card.</h1>
         <p className=" w-[400px] mx-auto leading-[30px]">
           Senectus et netus et malesuada fames ac turpis. Sagittis vitae et leo
           duis ut diam.
