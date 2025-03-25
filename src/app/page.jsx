@@ -2,14 +2,17 @@
 "use client";
 import { useState, useEffect } from "react";
 //For Loading Use End
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
+
 import Help from "@/components/Help";
 import OneApp from "@/components/OneApp";
-import ChooseCard from "@/components/ChooseCard";
-import OneBank from "@/components/OneBank";
-import Application from "@/components/Application";
+import RelatedArticle from "@/components/RelatedArticle";
+import PerfectCard from "@/components/PerfectCard";
+import Seemless from "@/components/Seemless";
+import Notification from "@/components/Notification";
 
+import HeroNew from "@/components/HeroNew";
+import OneBanking from "@/components/OneBanking";
+import SendReceived from "@/components/SendReceived";
 export default function Home() {
   //For Loading Use Start (Step-2)
   const [loading, setLoading] = useState(true);
@@ -45,12 +48,15 @@ export default function Home() {
   return (
     <>
       <div>
-        <Hero />
-        <Application />
-        <OneBank />
-        <ChooseCard />
+        <HeroNew />
+        <OneBanking />
+        <SendReceived />
+        <Notification />
+        <Seemless />
+        <PerfectCard />
         <OneApp />
         <Help />
+        <RelatedArticle />
       </div>
     </>
   );
