@@ -26,7 +26,9 @@ export default function OneBanking() {
             <div className="bg-[#E8F2EE] size-[50px] flex items-center rounded-full">
               <RiFlashlightLine className="mx-auto size-[28px]  " />
             </div>
-            <h3 className="text-[20px] w-[100px]">Instant transactions</h3>
+            <h3 className="text-[20px] w-[100px] font-semibold">
+              Instant transactions
+            </h3>
             <p className="text-16px w-[220px]">
               Odio euismod lacinia at quis. Amet purus gravida quis blandit
               turpis.
@@ -37,7 +39,9 @@ export default function OneBanking() {
             <div className="bg-[#E8F2EE] size-[50px] flex items-center rounded-full">
               <RiSafe2Fill className="mx-auto size-[28px]  " />
             </div>
-            <h3 className="text-[20px] w-[100px]">Saving accounts</h3>
+            <h3 className="text-[20px] w-[100px] font-semibold">
+              Saving accounts
+            </h3>
             <p className="text-16px w-[220px]">
               Odio euismod lacinia at quis. Amet purus gravida quis blandit
               turpis.
@@ -48,7 +52,9 @@ export default function OneBanking() {
             <div className="bg-[#E8F2EE] size-[50px] flex items-center rounded-full">
               <RiSmartphoneLine className="mx-auto size-[28px]  " />
             </div>
-            <h3 className="text-[20px] w-[100px]">Mobile banking</h3>
+            <h3 className="text-[20px] w-[100px] font-semibold">
+              Mobile banking
+            </h3>
             <p className="text-16px w-[220px]">
               Odio euismod lacinia at quis. Amet purus gravida quis blandit
               turpis.
@@ -59,7 +65,9 @@ export default function OneBanking() {
             <div className="bg-[#E8F2EE] size-[50px] flex items-center rounded-full">
               <RiLineChartLine className="mx-auto size-[28px]  " />
             </div>
-            <h3 className="text-[20px] w-[100px]">Advanced statistics</h3>
+            <h3 className="text-[20px] w-[100px] font-semibold">
+              Advanced statistics
+            </h3>
             <p className="text-16px w-[220px]">
               Odio euismod lacinia at quis. Amet purus gravida quis blandit
               turpis.
@@ -70,7 +78,9 @@ export default function OneBanking() {
             <div className="bg-[#E8F2EE] size-[50px] flex items-center rounded-full">
               <RiBankCard2Line className="mx-auto size-[28px]  " />
             </div>
-            <h3 className="text-[20px] w-[100px]">Virtual cards</h3>
+            <h3 className="text-[20px] w-[100px] font-semibold">
+              Virtual cards
+            </h3>
             <p className="text-16px w-[220px]">
               Odio euismod lacinia at quis. Amet purus gravida quis blandit
               turpis.
@@ -81,7 +91,9 @@ export default function OneBanking() {
             <div className="bg-[#E8F2EE] size-[50px] flex items-center rounded-full">
               <RiWifiLine className="mx-auto size-[28px]  " />
             </div>
-            <h3 className="text-[20px] w-[100px]">Contactless payments</h3>
+            <h3 className="text-[20px] w-[100px] font-semibold">
+              Contactless payments
+            </h3>
             <p className="text-16px w-[220px]">
               Odio euismod lacinia at quis. Amet purus gravida quis blandit
               turpis.
