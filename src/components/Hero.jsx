@@ -46,7 +46,7 @@ export default function Hero() {
       </div>
       <div>
         <Image
-          className=" mx-auto lg:mt-[60px]"
+          className=" mx-auto lg:mt-[50px]"
           alt="Hero Image" // Updated alt text for accessibility
           src={Heroimg} // Use the imported image variable
           width="full"

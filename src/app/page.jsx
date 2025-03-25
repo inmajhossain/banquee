@@ -13,6 +13,8 @@ import Notification from "@/components/Notification";
 import HeroNew from "@/components/HeroNew";
 import OneBanking from "@/components/OneBanking";
 import SendReceived from "@/components/SendReceived";
+import Organize from "@/components/Organize";
+import Testimonials from "@/components/Testimonials";
 export default function Home() {
   //For Loading Use Start (Step-2)
   const [loading, setLoading] = useState(true);
@@ -51,9 +53,11 @@ export default function Home() {
         <HeroNew />
         <OneBanking />
         <SendReceived />
+        <Organize />
         <Notification />
         <Seemless />
         <PerfectCard />
+        <Testimonials />
         <OneApp />
         <Help />
         <RelatedArticle />

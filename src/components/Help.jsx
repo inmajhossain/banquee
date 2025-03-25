@@ -21,7 +21,9 @@ export default function () {
               <IoMdCall className="text-[#5BB5A2] size-[40px] bg-[#E8F2EE]  p-[10px] rounded-full" />
             </Link>
             <div>
-              <Link href="tel:+49176123456">+49 176 123 456</Link>
+              <Link className="font-semibold" href="tel:+49176123456">
+                +49 176 123 456
+              </Link>
               <p>Support Hotline</p>
             </div>
           </div>
@@ -30,7 +32,9 @@ export default function () {
               <RiMessageFill className="text-[#5BB5A2] size-[40px] bg-[#E8F2EE]  p-[10px] rounded-full" />
             </Link>
             <div>
-              <Link href="">help@banquee.com</Link>
+              <Link className="font-semibold" href="">
+                help@banquee.com
+              </Link>
               <p>Support Email</p>
             </div>
           </div>
