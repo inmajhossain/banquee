@@ -31,16 +31,16 @@ export default function Home() {
 
   if (loading)
     return (
-      <div className="mt-[150px] lg:mt-[350px] mx-auto w-[500px] h-[800px] flex gap-[30px] flex-col items-center">
+      <div className="flex flex-col items-center gap-[30px] mx-auto mt-[150px] lg:mt-[350px] w-[500px] h-[800px]">
         <div className="flex gap-[30px]">
-          <div className="animate-spin h-10 w-10 rounded-full border-4 border-sky-900 border-b-transparent"></div>
-          <div className="animate-spin h-10 w-10 rounded-full border-4 border-red-600 border-b-transparent"></div>
-          <div className="animate-spin h-10 w-10 rounded-full border-4 border-orange-600 border-b-transparent"></div>
-          <div className="animate-spin h-10 w-10 rounded-full border-4 border-black border-b-transparent"></div>
-          <div className="animate-spin h-10 w-10 rounded-full border-4 border-indigo-600 border-b-transparent"></div>
+          <div className="border-4 border-sky-900 border-b-transparent rounded-full w-10 h-10 animate-spin"></div>
+          <div className="border-4 border-red-600 border-b-transparent rounded-full w-10 h-10 animate-spin"></div>
+          <div className="border-4 border-orange-600 border-b-transparent rounded-full w-10 h-10 animate-spin"></div>
+          <div className="border-4 border-b-transparent border-black rounded-full w-10 h-10 animate-spin"></div>
+          <div className="border-4 border-indigo-600 border-b-transparent rounded-full w-10 h-10 animate-spin"></div>
         </div>
         <div>
-          <h2 className="text-[30px] font-semibold text-indigo-500 text-center">
+          <h2 className="font-semibold text-[30px] text-indigo-500 text-center">
             Loading.......
           </h2>
         </div>
@@ -62,6 +62,7 @@ export default function Home() {
         <Help />
         <RelatedArticle />
       </div>
+      {/* <div>Test</div> */}
     </>
   );
 }
